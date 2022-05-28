@@ -1,0 +1,19 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Fabric-Tutorial-1.18.1-2-item",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\java",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\java\\net",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\java\\net\\kaupenjoe",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\java\\net\\kaupenjoe\\tutorialmod",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\java\\net\\kaupenjoe\\tutorialmod\\mixin",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\resources",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\resources\\assets",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\resources\\assets\\tutorialmod",
+    "\\Fabric-Tutorial-1.18.1-2-item\\src\\main\\resources\\assets\\tutorialmod\\lang"
+  ],
+  "SelectedNode": "\\Fabric-Tutorial-1.18.1-2-item\\gradle.properties",
+  "PreviewInSolutionExplorer": false
+}
