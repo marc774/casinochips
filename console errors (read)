@@ -1,0 +1,316 @@
+Java version: 17.0.2
+NOTE: Forge compatibility mode is enabled.
+NOTE: The Log4j2 vulnerability workaround has been enabled. If you're running an unpatched server software build, remember to update ASAP as this workaround may be removed at any time, and is not effective in older versions of the game.
+customer@sparkedhost:~$ java -Xms128M -Xmx7168M -Dlog4j2.formatMsgNoLookups=true -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[17:11:15] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.3
+[17:11:16] [main/INFO]: Loading 35 mods:
+        - fabric 0.53.4+1.18.2
+        - fabric-api-base 0.4.4+d7c144a860 via fabric
+        - fabric-api-lookup-api-v1 1.6.1+2373a54560 via fabric
+        - fabric-biome-api-v1 8.0.4+7b0f312660 via fabric
+        - fabric-command-api-v1 1.1.9+d7c144a860 via fabric
+        - fabric-commands-v0 0.2.8+b4f4f6cd60 via fabric
+        - fabric-containers-v0 0.1.21+d7c144a860 via fabric
+        - fabric-content-registries-v0 3.0.5+d82b939260 via fabric
+        - fabric-convention-tags-v1 1.0.1+474e4f7960 via fabric
+        - fabric-crash-report-info-v1 0.2.1+ee261a3e60 via fabric
+        - fabric-dimensions-v1 2.1.19+ffb2c71e60 via fabric
+        - fabric-entity-events-v1 1.4.8+d7c144a860 via fabric
+        - fabric-events-interaction-v0 0.4.19+d7c144a860 via fabric
+        - fabric-events-lifecycle-v0 0.2.16+d7c144a860 via fabric
+        - fabric-game-rule-api-v1 1.0.13+d7c144a860 via fabric
+        - fabric-item-api-v1 1.5.0+85719ab760 via fabric
+        - fabric-item-groups-v0 0.3.12+91896a4960 via fabric
+        - fabric-lifecycle-events-v1 2.0.4+d8d7804a60 via fabric
+        - fabric-loot-tables-v1 1.0.11+d7c144a860 via fabric
+        - fabric-mining-level-api-v1 2.1.1+81ea5b3c60 via fabric
+        - fabric-networking-api-v1 1.0.21+d882b91560 via fabric
+        - fabric-networking-v0 0.3.8+b4f4f6cd60 via fabric
+        - fabric-object-builder-api-v1 2.1.1+032c981d60 via fabric
+        - fabric-particles-v1 0.2.12+526dc1ac60 via fabric
+        - fabric-registry-sync-v0 0.9.8+0d9ab37260 via fabric
+        - fabric-rendering-data-attachment-v1 0.3.7+d7c144a860 via fabric
+        - fabric-rendering-fluids-v1 2.0.2+54e5b2ec60 via fabric
+        - fabric-resource-conditions-api-v1 2.0.3+91b7aa6660 via fabric
+        - fabric-resource-loader-v0 0.5.0+2afceb2960 via fabric
+        - fabric-screen-handler-api-v1 1.2.0+1f6558e860 via fabric
+        - fabric-transfer-api-v1 1.6.2+f4563ac860 via fabric
+        - fabric-transitive-access-wideners-v1 1.0.0+bd8a4a1860 via fabric
+        - fabricloader 0.14.3
+        - java 17
+        - minecraft 1.18.2
+[17:11:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/container/libraries/net/fabricmc/sponge-mixin/0.11.3+mixin.0.8.5/sponge-mixin-0.11.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:11:16] [main/INFO]: Compatibility level set to JAVA_16
+[17:11:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:11:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:11:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:11:23] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:11:23] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:11:23] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:11:24] [Worker-Main-3/INFO]: Loaded 7 recipes
+[17:11:24] [Worker-Main-3/INFO]: Loaded 1146 advancements
+[17:11:25] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 1.880 ms
+[17:11:25] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[17:11:25] [Server thread/INFO]: Loading properties
+[17:11:25] [Server thread/INFO]: Default game type: SURVIVAL
+[17:11:25] [Server thread/INFO]: Generating keypair
+[17:11:25] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25715
+[17:11:26] [Server thread/INFO]: Using epoll channel type
+[17:11:26] [Server thread/INFO]: Preparing level "world"
+[17:11:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:11:34] [Worker-Main-3/INFO]: Preparing spawn area: 33%
+[17:11:34] [Worker-Main-3/INFO]: Preparing spawn area: 81%
+[17:11:35] [Worker-Main-4/INFO]: Preparing spawn area: 91%
+[17:11:35] [Server thread/INFO]: Time elapsed: 9113 ms
+[17:11:35] [Server thread/INFO]: Done (9.346s)! For help, type "help"
+[17:11:37] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/73, l='ServerLevel[world]', x=22068880.50, y=1000.00, z=-4185487.50]
+[17:12:13] [User Authenticator #1/INFO]: UUID of player BadAszMed is 1867724d-81dd-421d-a1de-d8d77580d9f1
+[17:12:14] [Server thread/INFO]: BadAszMed[/45.45.79.84:54275] logged in with entity id 75 at (-483.4514444508117, 183.0, -1722.4087115357067)
+[17:12:14] [Server thread/INFO]: BadAszMed joined the game
+[17:12:16] [Server thread/WARN]: BadAszMed moved too quickly! 0.0,-10.806526110009003,0.0
+[17:12:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2204ms or 44 ticks behind
+/say gonna close the server for 30 secs to get my error codes then ill restart
+[17:39:34] [Server thread/INFO]: [Server] gonna close the server for 30 secs to get my error codes then ill restart
+stop
+[17:39:51] [Server thread/INFO]: Stopping the server
+[17:39:51] [Server thread/INFO]: Stopping server
+[17:39:51] [Server thread/INFO]: Saving players
+[17:39:51] [Server thread/INFO]: Saving worlds
+[17:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:40:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:40:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:40:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:40:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:40:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:40:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+customer@sparkedhost~ Server marked as offline...
+[Pterodactyl Daemon]: Checking server disk space usage, this could take a few seconds...
+[Pterodactyl Daemon]: Updating process configuration files...
+[Pterodactyl Daemon]: Ensuring file permissions are set correctly, this could take a few seconds...
+customer@sparkedhost~ Server marked as starting...
+[Pterodactyl Daemon]: Pulling Docker container image, this could take a few minutes to complete...
+[Pterodactyl Daemon]: Finished pulling Docker container image
+Java version: 17.0.2
+NOTE: Forge compatibility mode is enabled.
+NOTE: The Log4j2 vulnerability workaround has been enabled. If you're running an unpatched server software build, remember to update ASAP as this workaround may be removed at any time, and is not effective in older versions of the game.
+customer@sparkedhost:~$ java -Xms128M -Xmx7168M -Dlog4j2.formatMsgNoLookups=true -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[17:40:09] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.3
+[17:40:09] [main/INFO]: Loading 36 mods:
+        - fabric 0.53.4+1.18.2
+        - fabric-api-base 0.4.4+d7c144a860 via fabric
+        - fabric-api-lookup-api-v1 1.6.1+2373a54560 via fabric
+        - fabric-biome-api-v1 8.0.4+7b0f312660 via fabric
+        - fabric-command-api-v1 1.1.9+d7c144a860 via fabric
+        - fabric-commands-v0 0.2.8+b4f4f6cd60 via fabric
+        - fabric-containers-v0 0.1.21+d7c144a860 via fabric
+        - fabric-content-registries-v0 3.0.5+d82b939260 via fabric
+        - fabric-convention-tags-v1 1.0.1+474e4f7960 via fabric
+        - fabric-crash-report-info-v1 0.2.1+ee261a3e60 via fabric
+        - fabric-dimensions-v1 2.1.19+ffb2c71e60 via fabric
+        - fabric-entity-events-v1 1.4.8+d7c144a860 via fabric
+        - fabric-events-interaction-v0 0.4.19+d7c144a860 via fabric
+        - fabric-events-lifecycle-v0 0.2.16+d7c144a860 via fabric
+        - fabric-game-rule-api-v1 1.0.13+d7c144a860 via fabric
+        - fabric-item-api-v1 1.5.0+85719ab760 via fabric
+        - fabric-item-groups-v0 0.3.12+91896a4960 via fabric
+        - fabric-lifecycle-events-v1 2.0.4+d8d7804a60 via fabric
+        - fabric-loot-tables-v1 1.0.11+d7c144a860 via fabric
+        - fabric-mining-level-api-v1 2.1.1+81ea5b3c60 via fabric
+        - fabric-networking-api-v1 1.0.21+d882b91560 via fabric
+        - fabric-networking-v0 0.3.8+b4f4f6cd60 via fabric
+        - fabric-object-builder-api-v1 2.1.1+032c981d60 via fabric
+        - fabric-particles-v1 0.2.12+526dc1ac60 via fabric
+        - fabric-registry-sync-v0 0.9.8+0d9ab37260 via fabric
+        - fabric-rendering-data-attachment-v1 0.3.7+d7c144a860 via fabric
+        - fabric-rendering-fluids-v1 2.0.2+54e5b2ec60 via fabric
+        - fabric-resource-conditions-api-v1 2.0.3+91b7aa6660 via fabric
+        - fabric-resource-loader-v0 0.5.0+2afceb2960 via fabric
+        - fabric-screen-handler-api-v1 1.2.0+1f6558e860 via fabric
+        - fabric-transfer-api-v1 1.6.2+f4563ac860 via fabric
+        - fabric-transitive-access-wideners-v1 1.0.0+bd8a4a1860 via fabric
+        - fabricloader 0.14.3
+        - java 17
+        - minecraft 1.18.2
+        - tutorialmod 0.14.3
+[17:40:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/container/libraries/net/fabricmc/sponge-mixin/0.11.3+mixin.0.8.5/sponge-mixin-0.11.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:40:10] [main/INFO]: Compatibility level set to JAVA_16
+[17:40:10] [main/ERROR]: Uncaught exception in thread "main"
+java.lang.RuntimeException: An exception occurred when launching the server!
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:64) ~[server.jar:0.10.2]
+Caused by: java.lang.reflect.InvocationTargetException
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+Caused by: java.lang.RuntimeException: Error creating Mixin config tutorialmod.mixins.json for mod tutorialmod
+        at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:95) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:153) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.3.jar:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+Caused by: org.spongepowered.asm.launch.MixinInitialisationError: Error initialising mixin config tutorialmod.mixins.json
+        at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:153) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:100) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:87) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:93) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:153) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.3.jar:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+Caused by: java.lang.IllegalArgumentException: The specified resource 'tutorialmod.mixins.json' was invalid or could not be read
+        at org.spongepowered.asm.mixin.transformer.MixinConfig.create(MixinConfig.java:1290) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:148) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:100) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:87) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:93) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:153) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.3.jar:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+customer@sparkedhost~ Server marked as offline...
+[Pterodactyl Daemon]: ---------- Detected server process in a crashed state! ----------
+[Pterodactyl Daemon]: Exit code: 1
+[Pterodactyl Daemon]: Out of memory: false
+[Pterodactyl Daemon]: Checking server disk space usage, this could take a few seconds...
+[Pterodactyl Daemon]: Updating process configuration files...
+[Pterodactyl Daemon]: Ensuring file permissions are set correctly, this could take a few seconds...
+customer@sparkedhost~ Server marked as starting...
+[Pterodactyl Daemon]: Pulling Docker container image, this could take a few minutes to complete...
+[Pterodactyl Daemon]: Finished pulling Docker container image
+Java version: 17.0.2
+NOTE: Forge compatibility mode is enabled.
+NOTE: The Log4j2 vulnerability workaround has been enabled. If you're running an unpatched server software build, remember to update ASAP as this workaround may be removed at any time, and is not effective in older versions of the game.
+customer@sparkedhost:~$ java -Xms128M -Xmx7168M -Dlog4j2.formatMsgNoLookups=true -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[17:40:12] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.3
+[17:40:12] [main/INFO]: Loading 36 mods:
+        - fabric 0.53.4+1.18.2
+        - fabric-api-base 0.4.4+d7c144a860 via fabric
+        - fabric-api-lookup-api-v1 1.6.1+2373a54560 via fabric
+        - fabric-biome-api-v1 8.0.4+7b0f312660 via fabric
+        - fabric-command-api-v1 1.1.9+d7c144a860 via fabric
+        - fabric-commands-v0 0.2.8+b4f4f6cd60 via fabric
+        - fabric-containers-v0 0.1.21+d7c144a860 via fabric
+        - fabric-content-registries-v0 3.0.5+d82b939260 via fabric
+        - fabric-convention-tags-v1 1.0.1+474e4f7960 via fabric
+        - fabric-crash-report-info-v1 0.2.1+ee261a3e60 via fabric
+        - fabric-dimensions-v1 2.1.19+ffb2c71e60 via fabric
+        - fabric-entity-events-v1 1.4.8+d7c144a860 via fabric
+        - fabric-events-interaction-v0 0.4.19+d7c144a860 via fabric
+        - fabric-events-lifecycle-v0 0.2.16+d7c144a860 via fabric
+        - fabric-game-rule-api-v1 1.0.13+d7c144a860 via fabric
+        - fabric-item-api-v1 1.5.0+85719ab760 via fabric
+        - fabric-item-groups-v0 0.3.12+91896a4960 via fabric
+        - fabric-lifecycle-events-v1 2.0.4+d8d7804a60 via fabric
+        - fabric-loot-tables-v1 1.0.11+d7c144a860 via fabric
+        - fabric-mining-level-api-v1 2.1.1+81ea5b3c60 via fabric
+        - fabric-networking-api-v1 1.0.21+d882b91560 via fabric
+        - fabric-networking-v0 0.3.8+b4f4f6cd60 via fabric
+        - fabric-object-builder-api-v1 2.1.1+032c981d60 via fabric
+        - fabric-particles-v1 0.2.12+526dc1ac60 via fabric
+        - fabric-registry-sync-v0 0.9.8+0d9ab37260 via fabric
+        - fabric-rendering-data-attachment-v1 0.3.7+d7c144a860 via fabric
+        - fabric-rendering-fluids-v1 2.0.2+54e5b2ec60 via fabric
+        - fabric-resource-conditions-api-v1 2.0.3+91b7aa6660 via fabric
+        - fabric-resource-loader-v0 0.5.0+2afceb2960 via fabric
+        - fabric-screen-handler-api-v1 1.2.0+1f6558e860 via fabric
+        - fabric-transfer-api-v1 1.6.2+f4563ac860 via fabric
+        - fabric-transitive-access-wideners-v1 1.0.0+bd8a4a1860 via fabric
+        - fabricloader 0.14.3
+        - java 17
+        - minecraft 1.18.2
+        - tutorialmod 0.14.3
+[17:40:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/container/libraries/net/fabricmc/sponge-mixin/0.11.3+mixin.0.8.5/sponge-mixin-0.11.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:40:12] [main/INFO]: Compatibility level set to JAVA_16
+[17:40:12] [main/ERROR]: Uncaught exception in thread "main"
+java.lang.RuntimeException: An exception occurred when launching the server!
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:64) ~[server.jar:0.10.2]
+Caused by: java.lang.reflect.InvocationTargetException
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+Caused by: java.lang.RuntimeException: Error creating Mixin config tutorialmod.mixins.json for mod tutorialmod
+        at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:95) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:153) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.3.jar:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+Caused by: org.spongepowered.asm.launch.MixinInitialisationError: Error initialising mixin config tutorialmod.mixins.json
+        at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:153) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:100) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:87) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:93) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:153) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.3.jar:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+Caused by: java.lang.IllegalArgumentException: The specified resource 'tutorialmod.mixins.json' was invalid or could not be read
+        at org.spongepowered.asm.mixin.transformer.MixinConfig.create(MixinConfig.java:1290) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:148) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:100) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:87) ~[sponge-mixin-0.11.3+mixin.0.8.5.jar:0.11.3+mixin.0.8.5]
+        at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:93) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:153) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.3.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.3.jar:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:67) ~[fabric-loader-0.14.3.jar:?]
+        ... 1 more
+customer@sparkedhost~ Server marked as offline...
+[Pterodactyl Daemon]: ---------- Detected server process in a crashed state! ----------
+[Pterodactyl Daemon]: Exit code: 1
+[Pterodactyl Daemon]: Out of memory: false
+[Pterodactyl Daemon]: Aborting automatic restart, last crash occurred less than 60 seconds ago.
